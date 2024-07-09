@@ -24,8 +24,12 @@ body {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-
 }
+
+.text-center{
+    text-align: center;
+}
+
 
 /* banner */
 .banner-section-container {
@@ -243,8 +247,49 @@ body {
 #yt {
     width: 1076px;
     height: 550px;
-    flex: none;
-    margin: 10px 0px;
+    margin: 0 auto;
     border-radius: 16px;
+ 
+    align-items: center;
 }
 
+/* target container */
+.my-target-container {
+    width: 1125px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 80px;
+    /* border: 2px solid red; */
+}
+
+.target-skills{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.skills {
+    padding: 40px;
+    gap: 30px;
+    width: 364px;
+    height: 299px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#bg1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+#bg2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+#bg3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
