@@ -315,6 +315,9 @@ body {
     text-align: center;
     
 }
+.target-title{
+    margin-bottom: 24px;
+}
 
 .target-skills{
     display: flex;
@@ -392,13 +395,22 @@ body {
     height: 40px;
     align-items: center;
     padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
 }
 .text-area button {
     width: 120px;
     height: 40px;
-    align-items: center;
-    margin: 0 20px;
+    text-align: center;
+    /* align-items: center; */
+    margin: 0 16px;
     padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
 
 }
 
@@ -410,6 +422,7 @@ body {
 
 
 .footer-content{
+    margin-top: 50px;
     max-width: 1440px;
     height: 100px;
     border-radius: 16px;
