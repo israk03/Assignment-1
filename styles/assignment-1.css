@@ -34,7 +34,7 @@ body {
 /* banner */
 .banner-section-container {
     max-width: 1440px;
-    height: 570px;
+    height: 600px;
     background-image: url(../assets/Hero-bg.png);
 }
 
@@ -75,18 +75,31 @@ body {
     margin-left: 294px;
 
 }
+.banner-title h1 {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
-#title-des {
+.banner-title p {
     margin-top: 25px;
     margin-right: 73px;
     margin-left: 73px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 .btn-contact {
     color: white;
-    background-color: rgb(13, 19, 33);
-
-   
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
     width: 150px;
     height: 46px;
     margin-top: 30px;
@@ -104,6 +117,7 @@ body {
     /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 150px;
+    padding: 80px 97px 80px 97px;
 }
 
 .why-web-title {
@@ -113,23 +127,24 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
-
     margin: 0 auto;
     padding: 80 97;
+    gap: 25px;
     
 }
 
-#title-set{
+.why-web-title h1{
     font-size: 32px;
 
 }
 
-#title-des{
+.why-web-title p{
     color: rgb(13, 19, 33);
     font-size: 16px;
     letter-spacing: 0%;
     text-align: center;
 }
+
 
 .reasons-container {
     width: 100%;
@@ -140,9 +155,11 @@ body {
     margin-top: 90px;
     width: 946px;
     height: 336px;
+    margin: 0 auto;
     display: flex;
     padding: 45;
     justify-content: space-between;
+    border: 2px solid red;
 }
 
 .f1-tp {
@@ -150,7 +167,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50%;
+    margin: 0px 25px;
+    gap: 16px;
 }
+
+/*  width: 946px;
+    height: 310px;
+    margin: 0 auto;
+    display: flex;
+    padding: 45;
+    justify-content: space-between;
+    border: 2px solid red;
+} */
 
 .f1-img{
     /* Group */
@@ -163,9 +192,11 @@ body {
 .second{
     width: 946px;
     height: 336px;
+    margin: 0 auto;
     display: flex;
     padding: 45;
     justify-content: space-between;
+    border: 2px solid red;
 }
 
 .f2-tp {
@@ -173,6 +204,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0px 32px;
+    gap: 16px;
 }
 
 .f2-img{
@@ -185,10 +218,12 @@ body {
 
 .third{
     width: 946px;
-    height: 336px;
+    height: 310px;
+    margin: 0 auto;
     display: flex;
     padding: 45;
     justify-content: space-between;
+    border: 2px solid red;
 }
 
 .f3-tp {
@@ -196,6 +231,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0px 133px;
+    gap: 16px;
 }
 
 .f3-img{
@@ -204,6 +241,14 @@ body {
     height: 217.01px;
     margin: 0 auto;
     align-items: center;
+}
+
+.learn-more-btn{
+    width: 171px;
+    height: 47px;
+    margin: 32px 0;
+    padding: 12px 20px 12px 20px;
+
 }
 
 /* video */
@@ -216,6 +261,7 @@ body {
     align-items: center;
     margin: 0 auto;
     gap: 28px;
+    margin-top: 30px;
 }
 
 .yt-title{
@@ -226,8 +272,12 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px;
+    gap: 24px;
+    margin-bottom: 48px;
     /* border: 2px solid green; */
+}
+.yt-title p{
+    text-align: center;
 }
 
 .yt-video{
