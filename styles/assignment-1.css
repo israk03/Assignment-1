@@ -259,7 +259,11 @@ body {
     height: 550px;
     margin: 0 auto;
     margin-top: 80px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+.target-title, .target-description{
+    text-align: center;
+    
 }
 
 .target-skills{
@@ -299,27 +303,61 @@ body {
 .support-container{
     width: 1140px;
     height: 313px;
+    background-image: url(../assets/handshake.jpg);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-image: url(../assets/handshake.jpg); */
+
     border-radius: 16px;
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
-.support-content h1, p{
+.support-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-content p{
     width: 606px;
     height: 52px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 25px;
+    color: white;
+}
+.support-content h1{
+    color: white;
+}
+
+.text-area input {
+    width: 500px;
+    height: 40px;
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+}
+.text-area button {
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    margin: 0 20px;
+    padding: 17px 20px 17px 20px;
+
 }
 
 .text-area{
-    width: 548px;
-    height: 57px;
+    display: flex;
+    gap: 5px;
+   
 }
+
 
 .footer-content{
     max-width: 1440px;
