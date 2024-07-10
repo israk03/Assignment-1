@@ -34,18 +34,19 @@ body {
 /* banner */
 .banner-section-container {
     max-width: 1440px;
-    height: 600px;
+    height: 652px;
     background-image: url(../assets/Hero-bg.png);
 }
 
 .banner-content {
     width: 998px;
-    height: 542px;
+    height: 582px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
     
    
 }
@@ -85,9 +86,6 @@ body {
 }
 
 .banner-title p {
-    margin-top: 25px;
-    margin-right: 73px;
-    margin-left: 73px;
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -100,9 +98,11 @@ body {
     color: white;
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    width: 150px;
-    height: 46px;
-    margin-top: 30px;
+    width: 208px;
+    height: 66px;
+    font-size: 20px;
+    font-weight: 400px;
+    margin: 52px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -427,33 +427,34 @@ body {
 .text-area input {
     width: 500px;
     height: 40px;
+    background: rgb(255, 255, 255);
     align-items: center;
     padding: 19px 20px 19px 20px;
     box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.15);
+    /* border: 1px solid rgba(13, 19, 33, 0.15); */
     border-radius: 8px;
 
-    background: rgb(255, 255, 255);
-}
-.text-area button {
-    width: 120px;
-    height: 40px;
-    text-align: center;
-    /* align-items: center; */
-    margin: 0 16px;
-    padding: 17px 20px 17px 20px;
-    border-radius: 8px;
-
-    background: rgb(255, 255, 255);
 
 }
-
 .text-area{
     display: flex;
     gap: 5px;
    
 }
+.text-area button {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
 
+
+/* footer style */
 
 .footer-content{
     margin-top: 50px;
